@@ -1,11 +1,16 @@
 body {
     background-color: #B6FFBB;
     max-width: auto;
+    text-align: center;
     position: relative;
 }
 
 a:hover {
     color: blue;
+}
+
+.personal {
+
 }
 
 /* navbar */
@@ -42,4 +47,12 @@ a:hover {
 
 .navbar a:visited{
     color: #20cdff;
+}
+
+/* characteristics */
+.characteristiscs {
+    background-color: grey;
+    float: left;
+    padding: 5px 5px 5px 20px;
+    text-align: start;
 }
