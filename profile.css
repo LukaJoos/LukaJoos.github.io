@@ -1,7 +1,6 @@
 body {
-    background-color: #B6FFBB;
+    background-color: #AFB4C5;
     max-width: auto;
-    text-align: center;
     position: relative;
 }
 
@@ -9,14 +8,29 @@ a:hover {
     color: blue;
 }
 
-.personal {
+h1 {
+    text-align: center;
+}
 
+/* paragraphs */
+.personal {
+    text-align: center;
+}
+
+.travel {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 5px;
 }
 
 /* navbar */
 .navbar {
     width: 750px;
-    background-color: grey;
+    background-color: #2C363F;
     border-radius: 25px;
     text-align: center;
     margin-left: auto;
@@ -51,8 +65,39 @@ a:hover {
 
 /* characteristics */
 .characteristiscs {
-    background-color: grey;
+    background-color: #2C363F;
     float: left;
     padding: 5px 5px 5px 20px;
     text-align: start;
+}
+
+.sociallinks {
+    background-color: #2C363F;
+    float: right;
+}
+
+/* photos */
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 2fr 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 160px;
+    grid-row-gap: 0px;
+    background-color: #2C363F;
+    height: 571px;
+}
+
+#nzneedle {
+    width: auto;
+    height: 11%;
+}
+
+#thailand {
+    width: auto;
+    height: 11%;
+}
+
+#usa {
+    width: auto;
+    height: 11%;
 }
