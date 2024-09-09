@@ -4,10 +4,6 @@ body {
     position: relative;
 }
 
-a:hover {
-    color: blue;
-}
-
 h1 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,6 +33,7 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar ul{ 
@@ -51,18 +48,18 @@ h1 {
 }
 
 .navbar a{
-    color: #20cdff;
+    color: #F3D9DC;
     text-decoration: underline;
     padding: 10px;
     }
 
 .navbar a:hover{
     background-color: rgb(107, 107, 107);
-    color: #20cdff;
+    color: #F3D9DC;
 }
 
 .navbar a:visited{
-    color: #20cdff;
+    color: #F3D9DC;
 }
 
 /* characteristics */
@@ -71,11 +68,22 @@ h1 {
     float: left;
     padding: 5px 5px 5px 20px;
     text-align: start;
+    color: #F3D9DC;
 }
 
+/* sociallinks */
 .sociallinks {
     background-color: #2C363F;
     float: right;
+    
+}
+
+.sociallinks a:hover {
+    color: #F3D9DC;
+}
+
+.sociallinks a {
+    color: #F3D9DC;
 }
 
 /* photos */
