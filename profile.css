@@ -13,6 +13,7 @@ h1 {
 /* paragraphs */
 .personal {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -24,9 +25,10 @@ h1 {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 25%;
+    margin-left: 25%;
     padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* navbar */
@@ -74,12 +76,14 @@ h1 {
     padding: 5px 5px 5px 20px;
     text-align: start;
     color: #F3D9DC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* sociallinks */
 .sociallinks {
     background-color: #2C363F;
     float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
