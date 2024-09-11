@@ -49,7 +49,19 @@ header {
 
 /* body */
 .faq {
-    margin-left: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;    
+}
+
+.faq div {
+    background-color: #F3D9DC;
+    width: 50%;
+    margin: 2px;
+    border: 1px #2C363F solid;
+    text-align: center;
+    list-style-position: inside;
 }
 
 
