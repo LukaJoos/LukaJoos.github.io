@@ -38,3 +38,19 @@ body {
 .navbar a:visited{
     color: #F3D9DC;
 }
+
+/* header */
+header {
+    text-align: center;
+    position:sticky;
+    align-items: center;
+    
+}
+
+/* body */
+.faq {
+    margin-left: 30%;
+}
+
+
+
