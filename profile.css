@@ -41,29 +41,29 @@ h1 {
     position: static;
 }
 
-.navbar ul{ 
+.navbar ul {
     list-style-type: none;
     padding: 10px;
     margin: 1%;
     overflow: hidden;
 }
 
-.navbar li{
+.navbar li {
     display: inline;
 }
 
-.navbar a{
+.navbar a {
     color: #F3D9DC;
     text-decoration: underline;
     padding: 10px;
-    }
+}
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: rgb(107, 107, 107);
     color: #F3D9DC;
 }
 
-.navbar a:visited{
+.navbar a:visited {
     color: #F3D9DC;
 }
 
@@ -80,7 +80,7 @@ h1 {
 .sociallinks {
     background-color: #2C363F;
     float: right;
-    
+
 }
 
 .sociallinks a:hover {
