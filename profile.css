@@ -14,10 +14,18 @@ h1 {
 .personal {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F3D9DC;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px black solid;
 }
 
 .container {
     margin-top: 150px;
+    border: 1px black solid;
+    margin-right: 20%;
+    margin-left: 20%;
+    
 }
 
 .travel {
@@ -25,10 +33,11 @@ h1 {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-right: 25%;
-    margin-left: 25%;
+    
     padding-bottom: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F3D9DC;
+     
 }
 
 /* navbar */
@@ -84,7 +93,7 @@ h1 {
     background-color: #2C363F;
     float: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    color: #F3D9DC;
 }
 
 .sociallinks a:hover {
