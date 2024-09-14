@@ -5,6 +5,17 @@ body {
     position: relative;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+
+main {
+    text-align: center;
+}
+
+
 /* navbar */
 .navbar {
     width: 750px;
