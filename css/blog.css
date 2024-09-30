@@ -4,6 +4,10 @@ h1 {
     font-size: 36px;
 }
 
+.title {
+    background-color: transparent;
+}
+
 /* blog posts */
 .posts {
     display: flex;
