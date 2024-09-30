@@ -1,8 +1,19 @@
 /* body */
 body {
-    background-color: #AFB4C5;
+    background-image: url(../images/firewatch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     max-width: auto;
     position: relative;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
 }
 
 h1 {
@@ -11,10 +22,14 @@ h1 {
     font-size: 36px;
 }
 
+#logo {
+    height: 7%;
+    width: 7%;
+}
+
 main {
     text-align: center;
 }
-
 
 /* navbar */
 .navbar {
