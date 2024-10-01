@@ -74,3 +74,24 @@ main {
 .navbar a:visited {
     color: #F3D9DC;
 }
+
+/* footer */
+footer {
+    background: rgb(0, 0, 0, 0.5);
+    color: #F3D9DC;
+    text-align: center;
+    border: #F3D9DC 2px solid;
+}
+
+.links {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside a {
+    color: #F3D9DC;
+}
