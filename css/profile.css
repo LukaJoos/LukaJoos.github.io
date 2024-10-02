@@ -2,35 +2,38 @@
 .personal {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #F3D9DC;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #F3D9DC;
+    border: #F3D9DC solid;
+    padding: 1%;
     margin-left: 20%;
     margin-right: 20%;
-    border: 1px black solid;
 }
 
 .container {
     margin-top: 10%;
-    border: 1px black solid;
     margin-right: 20%;
     margin-left: 20%;
     margin-bottom: 2%;
-    
+    border: #F3D9DC solid;
+    color: #F3D9DC;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 1%;
 }
 
 .travel {
     text-align: center;
     list-style-type: none;
-    padding: 0;
+    padding: 0  ;
     margin: 0; 
     padding-bottom: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #F3D9DC;
-     
 }
 
 /* characteristics */
 .characteristiscs {
-    background-color: #2C363F;
+    border: 2px #F3D9DC solid;
+    background-color: rgb(0, 0, 0, 0.5);
     float: left;
     padding: 0.5% 0.5% 0.5% 2%;
     text-align: start;
@@ -40,7 +43,8 @@
 
 /* sociallinks */
 .sociallinks {
-    background-color: #2C363F;
+    border: 2px #F3D9DC solid;
+    background-color: rgb(0, 0, 0, 0.5);
     float: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #F3D9DC;
