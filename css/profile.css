@@ -24,8 +24,8 @@
 .travel {
     text-align: center;
     list-style-type: none;
-    padding: 0  ;
-    margin: 0; 
+    padding: 0;
+    margin: 0;
     padding-bottom: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -62,24 +62,31 @@
 /* photos */
 .photos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr 1fr 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 2%;
-    background-color: #2C363F;
-    height: 571px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-height: 25%;
 }
 
 #nzneedle {
     width: auto;
-    height: 9%;
+    height: 10%;
 }
 
 #thailand {
     width: auto;
-    height: 9%;
+    height: 10%;
 }
 
 #usa {
     width: auto;
-    height: 9%;
-} 
+    height: 10%;
+}
+
+/* .photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1fr 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2%;
+} */
