@@ -62,24 +62,15 @@
 /* photos */
 .photos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr 2fr 1fr);
     grid-template-rows: 0.5fr;
-    grid-column-gap: 0px;
+    grid-auto-rows: auto;
+    grid-column-gap: 1%;
     grid-row-gap: 0px;
-    max-height: 25%;
+    height: 560px;
 }
 
-#nzneedle {
-    width: auto;
-    height: 10%;
-}
-
-#thailand {
-    width: auto;
-    height: 10%;
-}
-
-#usa {
+.picsprofile {
     width: auto;
     height: 10%;
 }
