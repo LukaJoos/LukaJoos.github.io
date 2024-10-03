@@ -7,6 +7,8 @@ table {
     background-color: #8BB174;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 td, th {
