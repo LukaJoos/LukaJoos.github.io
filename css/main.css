@@ -65,6 +65,10 @@ main {
     padding: 10px;
 }
 
+.navbar a.inuse {
+    background-color: rgb(107, 107, 107);
+}
+
 .navbar a:hover {
     background-color: rgb(107, 107, 107);
     color: #F3D9DC;
