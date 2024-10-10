@@ -10,7 +10,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2%;    
+    gap: 2%;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 .faq div {
